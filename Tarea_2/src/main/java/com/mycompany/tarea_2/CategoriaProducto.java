@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.tarea_2;
-
-/**
- *
- * @author LATITUDE 7390
- */
 public class CategoriaProducto {
+    private String nombre;
+    private int pasillo;
     
+    CategoriaProducto(String nombre, int pasillo){
+        this.nombre = nombre;
+        this.pasillo = pasillo;
+    }
+    void mostrar(){
+        System.out.println("La categoria del producto es: " + nombre);
+        System.out.println("Se encuentra en el pasillo: " + pasillo);
+    }
 }
